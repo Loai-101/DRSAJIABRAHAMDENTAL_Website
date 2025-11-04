@@ -1,0 +1,111 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "name": "DR SAJI ABRAHAM DENTAL",
+  "description": "Professional dental care services in Bahrain. Expert dental clinic providing comprehensive oral health solutions, cosmetic dentistry, and emergency dental care.",
+  "url": "https://drsajiabrahamdental.com",
+  "logo": "https://res.cloudinary.com/dvybb2xnc/image/upload/w_512,h_512,c_fill,r_max,f_png/v1762154428/Dr_Logo_tdakk7.ai",
+  "image": "https://res.cloudinary.com/dvybb2xnc/image/upload/w_512,h_512,c_fill,r_max,f_png/v1762154428/Dr_Logo_tdakk7.ai",
+  "telephone": "+97317001231",
+  "email": "drsajiortho@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Clinic 13 Building 134 Road 407, Block 704 Salmabad",
+    "addressLocality": "Salmabad",
+    "addressRegion": "Kingdom of Bahrain",
+    "addressCountry": "BH",
+    "postalCode": "704"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 26.0667,
+    "longitude": 50.5853
+  },
+  "openingHours": [
+    "Sa-Th 09:00-21:00",
+    "Fr 00:00-00:00"
+  ],
+  "priceRange": "$$",
+  "paymentAccepted": ["Cash", "Credit Card", "Insurance"],
+  "currenciesAccepted": "BHD",
+  "medicalSpecialty": "Dentistry",
+  "availableService": [
+    {
+      "@type": "MedicalProcedure",
+      "name": "General Dentistry",
+      "description": "Fillings, Crowns, Bridges, Veneers, Dentures, Deep Cleaning, Whitening"
+    },
+    {
+      "@type": "MedicalProcedure",
+      "name": "Cosmetic Dentistry",
+      "description": "Bleaching, Composite or Ceramic Veneers, Crowns, Smile Design"
+    },
+    {
+      "@type": "MedicalProcedure",
+      "name": "Pediatric Dentistry",
+      "description": "Children Speciality Dental Care from infancy through teen years"
+    },
+    {
+      "@type": "MedicalProcedure",
+      "name": "Endodontics",
+      "description": "Microscopic Root Canal Treatment"
+    },
+    {
+      "@type": "MedicalProcedure",
+      "name": "Oral Surgery",
+      "description": "Wisdom Teeth, Implant, Benign Tumor, Gum & Bone Surgery"
+    },
+    {
+      "@type": "MedicalProcedure",
+      "name": "Laser Dentistry",
+      "description": "Advanced laser technology for precise and comfortable dental procedures"
+    }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Dental Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Dental Checkup",
+          "description": "Comprehensive dental examination and consultation"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Teeth Cleaning",
+          "description": "Professional dental hygiene and cleaning"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Emergency Dental Care",
+          "description": "24/7 emergency dental services"
+        }
+      }
+    ]
+  },
+  "sameAs": [
+    "https://www.facebook.com/drsajiabraham",
+    "https://www.instagram.com/drsajiabraham"
+  ],
+  "areaServed": {
+    "@type": "Country",
+    "name": "Bahrain"
+  },
+  "serviceArea": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.0667,
+      "longitude": 50.5853
+    },
+    "geoRadius": "50000"
+  }
+}

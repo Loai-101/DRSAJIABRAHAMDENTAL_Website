@@ -1,0 +1,25 @@
+{
+  "short_name": "DR SAJI ABRAHAM DENTAL",
+  "name": "DR SAJI ABRAHAM DENTAL",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "https://res.cloudinary.com/dvybb2xnc/image/upload/f_png/v1762154428/Dr_Logo_tdakk7.ai",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://res.cloudinary.com/dvybb2xnc/image/upload/f_png/v1762154428/Dr_Logo_tdakk7.ai",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#2196F3",
+  "background_color": "#ffffff"
+}

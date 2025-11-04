@@ -1,0 +1,24 @@
+/* Gallery Page Styles */
+.gallery-page {
+  min-height: 100vh;
+  padding-top: 80px;
+  background: linear-gradient(135deg, #faf8ff 0%, #f3e5f5 50%, #e1bee7 100%);
+}
+
+.gallery-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.gallery-container h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #FF4081, #2196F3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 2rem;
+}
+

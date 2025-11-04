@@ -1,0 +1,325 @@
+/* Fixed Appliance Orthodontics Page Styles */
+.fixed-appliance-page {
+  min-height: 100vh;
+  padding-top: 0;
+  background-image: url('https://res.cloudinary.com/dvybb2xnc/image/upload/v1762242351/Screenshot_2025-11-04_104537_ns0unx.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 4rem;
+  position: relative;
+}
+
+.fixed-appliance-page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(245, 245, 245, 0.85);
+  z-index: 0;
+}
+
+.fixed-appliance-page > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Hero Section */
+.fixed-appliance-hero {
+  position: relative;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 0;
+}
+
+.fixed-appliance-hero-video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.fixed-appliance-hero-video-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  image-rendering: optimizeQuality;
+  filter: brightness(1.05) contrast(1.1) saturate(1.05);
+}
+
+.fixed-appliance-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 2;
+}
+
+.fixed-appliance-hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  width: 100%;
+}
+
+.fixed-appliance-hero-content.rtl {
+  direction: rtl;
+  text-align: center;
+}
+
+.fixed-appliance-hero-content.ltr {
+  direction: ltr;
+  text-align: center;
+}
+
+.fixed-appliance-hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: white;
+  margin: 0 0 2rem 0;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  animation: fadeInUp 1s ease-out;
+}
+
+.fixed-appliance-hero-social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  animation: fadeInUp 1.2s ease-out;
+}
+
+.fixed-appliance-hero-social-icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(156, 39, 176, 0.15);
+  border: 2px solid #FF4081;
+  border-radius: 50%;
+  color: #FF4081;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.fixed-appliance-hero-social-icon:hover {
+  background: #FF4081;
+  border-color: #FF4081;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(156, 39, 176, 0.5);
+  color: white;
+  text-decoration: none;
+}
+
+/* Main Content */
+.fixed-appliance-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.fixed-appliance-container {
+  background: white;
+  border-radius: 16px;
+  padding: 3rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Sections */
+.fixed-appliance-section {
+  margin-bottom: 3rem;
+}
+
+.fixed-appliance-description {
+  font-size: 1.15rem;
+  line-height: 1.9;
+  color: #333;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  border-left: 4px solid #FF4081;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  font-family: 'Georgia', serif;
+  text-align: justify;
+}
+
+.fixed-appliance-description:hover {
+  transform: translateX(5px);
+  box-shadow: 0 6px 20px rgba(255, 64, 129, 0.15);
+  border-left-color: #2196F3;
+}
+
+.fixed-appliance-description:last-of-type {
+  margin-bottom: 0;
+}
+
+/* CTA Button */
+.fixed-appliance-cta {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid #e0e0e0;
+}
+
+.fixed-appliance-cta-button {
+  display: inline-block;
+  padding: 1.2rem 3rem;
+  background: linear-gradient(135deg, #FF4081 0%, #E91E63 50%, #2196F3 100%);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 30px rgba(255, 64, 129, 0.4);
+}
+
+.fixed-appliance-cta-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px rgba(255, 64, 129, 0.5);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .fixed-appliance-hero-title {
+    font-size: 1.3rem !important;
+    line-height: 1.3 !important;
+    margin: 0 0 0.6rem 0 !important;
+  }
+
+  .fixed-appliance-hero-social-icons {
+    gap: 0.8rem !important;
+    margin-top: 1.5rem !important;
+  }
+
+  .fixed-appliance-hero-social-icon {
+    width: 42px !important;
+    height: 42px !important;
+    font-size: 1.05rem !important;
+  }
+
+  .fixed-appliance-container {
+    padding: 2rem 1.5rem;
+  }
+
+  .fixed-appliance-description {
+    font-size: 1rem;
+  }
+
+  .fixed-appliance-cta-button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .fixed-appliance-hero {
+    min-height: 40vh;
+    padding: 3rem 1rem;
+  }
+
+  .fixed-appliance-hero-title {
+    font-size: 1.2rem !important;
+    line-height: 1.3 !important;
+    margin: 0 0 0.5rem 0 !important;
+  }
+
+  .fixed-appliance-hero-social-icons {
+    gap: 0.8rem !important;
+    margin-top: 1.5rem !important;
+  }
+
+  .fixed-appliance-hero-social-icon {
+    width: 40px !important;
+    height: 40px !important;
+    font-size: 1rem !important;
+  }
+
+  .fixed-appliance-container {
+    padding: 1.5rem 1rem;
+  }
+
+  .fixed-appliance-description {
+    font-size: 0.95rem;
+  }
+}
+
+/* iPhone SE (375x667) and very small mobile devices */
+@media (max-width: 375px) {
+  .fixed-appliance-hero-title {
+    font-size: 1.1rem !important;
+    line-height: 1.2 !important;
+    margin: 0 0 0.4rem 0 !important;
+  }
+
+  .fixed-appliance-hero-social-icons {
+    gap: 0.7rem !important;
+    margin-top: 1.2rem !important;
+  }
+
+  .fixed-appliance-hero-social-icon {
+    width: 38px !important;
+    height: 38px !important;
+    font-size: 0.95rem !important;
+  }
+}
+
+/* Very small mobile devices */
+@media (max-width: 360px) {
+  .fixed-appliance-hero-title {
+    font-size: 1rem !important;
+    line-height: 1.2 !important;
+    margin: 0 0 0.4rem 0 !important;
+  }
+
+  .fixed-appliance-hero-social-icons {
+    gap: 0.6rem !important;
+    margin-top: 1rem !important;
+  }
+
+  .fixed-appliance-hero-social-icon {
+    width: 36px !important;
+    height: 36px !important;
+    font-size: 0.9rem !important;
+  }
+}
+
