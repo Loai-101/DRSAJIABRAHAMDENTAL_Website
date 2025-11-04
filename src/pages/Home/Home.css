@@ -1430,7 +1430,7 @@
     border: 2px solid rgba(255, 64, 129, 0.3);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     margin-bottom: 4rem;
-    margin-top: 8rem;
+    margin-top: 12rem;
   }
   
   .about-title {
@@ -1588,7 +1588,7 @@
 
   .about-header {
     margin-bottom: 3rem !important;
-    margin-top: 8rem !important;
+    margin-top: 12rem !important;
     background: rgba(255, 255, 255, 0.95) !important;
     padding: 2rem 1.5rem !important;
     border-radius: 16px !important;
@@ -1697,7 +1697,7 @@
 
   .about-header {
     margin-bottom: 2.5rem !important;
-    margin-top: 7rem !important;
+    margin-top: 10rem !important;
     background: rgba(255, 255, 255, 0.95) !important;
     padding: 1.5rem 1rem !important;
     border-radius: 12px !important;
