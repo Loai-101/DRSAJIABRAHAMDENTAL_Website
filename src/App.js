@@ -80,7 +80,7 @@ function AppContent() {
       {isLoading && <LoadingScreen fadeOut={isFadingOut} />}
       {!isLoading && (
         <div className="App">
-          {location.pathname !== '/faq' && location.pathname !== '/appointment' && location.pathname !== '/services' && location.pathname !== '/' && location.pathname !== '/contact' && location.pathname !== '/about' && location.pathname !== '/root-canal-treatment' && location.pathname !== '/fixed-appliance-orthodontics' && location.pathname !== '/early-treatment' && location.pathname !== '/damon-system' && location.pathname !== '/clear-aligners' && location.pathname !== '/hollywood-smile' && location.pathname !== '/crown-bridges' && location.pathname !== '/implant-dentistry' && location.pathname !== '/teeth-whitening' && <SocialSidebar />}
+          {location.pathname !== '/faq' && location.pathname !== '/appointment' && location.pathname !== '/services' && location.pathname !== '/' && location.pathname !== '/contact' && location.pathname !== '/about' && location.pathname !== '/root-canal-treatment' && location.pathname !== '/fixed-appliance-orthodontics' && location.pathname !== '/early-treatment' && location.pathname !== '/damon-system' && location.pathname !== '/clear-aligners' && location.pathname !== '/hollywood-smile' && location.pathname !== '/crown-bridges' && location.pathname !== '/implant-dentistry' && location.pathname !== '/teeth-whitening' && location.pathname !== '/gallery' && <SocialSidebar />}
           <Header />
           <main className="main-content content-visible">
             <Routes>

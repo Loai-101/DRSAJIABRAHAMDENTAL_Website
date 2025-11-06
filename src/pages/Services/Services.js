@@ -104,7 +104,8 @@ const Services = () => {
         ar: ["تنظيف الأسنان والوقاية", "الحشوات (المركبة والملغمية)", "العلاجات الوقائية", "فحوصات صحة الفم", "علاجات الفلورايد", "المواد المانعة للتسرب"]
       },
       doctors: [drSita],
-      icon: <FaTooth />
+      icon: <FaTooth />,
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419756/WhatsApp_Image_2025-11-06_at_11.47.50_0b6349e0_jqezay.jpg"
     },
     {
       id: 2,
@@ -116,7 +117,8 @@ const Services = () => {
         ar: ["أشعة داخل الفم", "أشعة خارج الفم", "الأشعة البانورامية", "أشعة سيفالومترية", "أشعة TMJ", "التصوير الرقمي"]
       },
       doctors: [drSita],
-      icon: <FaXRay />
+      icon: <FaXRay />,
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419758/WhatsApp_Image_2025-11-06_at_11.47.44_b5c36a29_ue9skr.jpg"
     },
     {
       id: 3,
@@ -128,7 +130,8 @@ const Services = () => {
         ar: ["تبييض الأسنان", "القشور الخزفية", "الحشوات التجميلية", "تصميم الابتسامة", "إعادة تشكيل اللثة", "ربط الأسنان"]
       },
       doctors: [drSita, drSaji],
-      icon: <FaSmile />
+      icon: <FaSmile />,
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419759/WhatsApp_Image_2025-11-06_at_11.47.45_0cd4795d_bkakpt.jpg"
     },
     {
       id: 4,
@@ -140,7 +143,8 @@ const Services = () => {
         ar: ["قلع الأسنان", "إزالة أسنان الحكمة", "الإجراءات الجراحية", "زراعة العظام", "الحفاظ على التجويف", "القلع الجراحي"]
           },
       doctors: [drSita],
-      icon: <FaUserMd />
+      icon: <FaUserMd />,
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419761/WhatsApp_Image_2025-11-06_at_11.47.46_6f242f65_tmzcnp.jpg"
     },
     {
       id: 5,
@@ -152,7 +156,8 @@ const Services = () => {
         ar: ["علاج قناة الجذر (زيارة واحدة)", "علاج قناة الجذر (زيارات متعددة)", "إعادة علاج قناة الجذر", "بضع اللب", "استئصال اللب", "تكوين القمة", "إصلاح القمة", "علاج قناة الجذر المجهري"]
       },
       doctors: [drSita],
-      icon: <FaStethoscope />
+      icon: <FaStethoscope />,
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419763/WhatsApp_Image_2025-11-06_at_11.47.47_442f31f7_rndkgc.jpg"
     },
     {
       id: 6,
@@ -164,7 +169,8 @@ const Services = () => {
         ar: ["محاذاة تقويم الأسنان", "الكشف الجراحي", "قلع الأسنان", "إدارة المساحة", "التدخل المبكر", "علاج تقويم الأسنان الشامل"]
       },
       doctors: [drSaji],
-      icon: <FaTeeth />
+      icon: <FaTeeth />,
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419764/WhatsApp_Image_2025-11-06_at_11.47.47_e69cae92_obezv7.jpg"
     },
     {
       id: 7,
@@ -176,7 +182,8 @@ const Services = () => {
         ar: ["الأقواس التقليدية", "المحاذاة الواضحة", "الأقواس اللسانية", "الأقواس الشفافة", "الأقواس غير المرئية", "تقويم الأسنان للمراهقين", "تقويم الأسنان للبالغين"]
       },
       doctors: [drSaji],
-      icon: <FaTeeth />
+      icon: <FaTeeth />,
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419766/WhatsApp_Image_2025-11-06_at_11.47.47_9e4ef08e_qum3rv.jpg"
     },
     {
       id: 8,
@@ -188,7 +195,8 @@ const Services = () => {
         ar: ["أقواس نظام دامون", "الأقواس ذاتية الربط", "وقت علاج أسرع", "راحة محسنة", "تحسين جماليات الوجه", "تجهيز الحواف المسبق"]
       },
       doctors: [drSaji],
-      icon: <FaTeethOpen />
+      icon: <FaTeethOpen />,
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419756/WhatsApp_Image_2025-11-06_at_11.47.44_7a341de5_ryp9za.jpg"
     },
     {
       id: 9,
@@ -200,7 +208,8 @@ const Services = () => {
         ar: ["وضع الأقواس اللسانية", "علاج تقويم الأسنان غير المرئي", "أقواس مخصصة", "تجهيز الحواف المسبق", "علاج المراهقين", "علاج البالغين"]
       },
       doctors: [drSaji],
-      icon: <FaTeethOpen />
+      icon: <FaTeethOpen />,
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419768/WhatsApp_Image_2025-11-06_at_11.47.47_3f001bb5_igsrap.jpg"
     },
     {
       id: 10,
@@ -212,7 +221,8 @@ const Services = () => {
         ar: ["محاذاة شفافة مخصصة", "تخطيط العلاج الرقمي", "علاج غير مرئي تقريبًا", "حركة الأسنان التدريجية", "علاج مريح", "محاذاة قابلة للإزالة"]
       },
       doctors: [drSaji],
-      icon: <FaTeethOpen />
+      icon: <FaTeethOpen />,
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419770/WhatsApp_Image_2025-11-06_at_11.47.48_40bf1409_aboyn6.jpg"
     },
     {
       id: 11,
@@ -224,7 +234,8 @@ const Services = () => {
         ar: ["التنظيف الوقائي للأطفال", "حشوات الأطفال", "بضع اللب", "استئصال اللب", "علاجات الفلورايد", "المواد المانعة للتسرب", "الرعاية الوقائية", "بيئة صديقة للأطفال"]
       },
       doctors: [drSita],
-      icon: <FaChild />
+      icon: <FaChild />,
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419771/WhatsApp_Image_2025-11-06_at_11.47.48_acd6073c_ohj80t.jpg"
     },
     {
       id: 12,
@@ -236,7 +247,8 @@ const Services = () => {
         ar: ["قشور البورسلين", "القشور المركبة", "تصميم الابتسامة", "إغلاق الفجوات", "تصحيح تغير اللون", "إصلاح التقشير", "إعادة تأهيل الفم بالكامل", "تحسين الجماليات"]
       },
       doctors: [drSaji],
-      icon: <FaCrown />
+      icon: <FaCrown />,
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419773/WhatsApp_Image_2025-11-06_at_11.47.49_39be8864_vjjipu.jpg"
     },
     {
       id: 13,
@@ -248,7 +260,8 @@ const Services = () => {
         ar: ["تيجان الأسنان", "جسور الأسنان", "اللب واللباب", "التيجان الخزفية", "التيجان المعدنية", "وضع الجسور", "ترميم التيجان"]
       },
       doctors: [drSita],
-      icon: <FaCrown />
+      icon: <FaCrown />,
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419775/WhatsApp_Image_2025-11-06_at_11.47.49_c9c33e6e_ulhppv.jpg"
     },
     {
       id: 14,
@@ -260,7 +273,8 @@ const Services = () => {
         ar: ["وضع زراعة الأسنان", "زراعة التيتانيوم", "التيجان المدعومة بالزراعة", "الجسور المدعومة بالزراعة", "زراعة العظام", "ترميم الزراعة", "إعادة تأهيل الفم بالكامل"]
       },
       doctors: [drSita],
-      icon: <FaImplant />
+      icon: <FaImplant />,
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419776/WhatsApp_Image_2025-11-06_at_11.47.49_e7606228_kpirsx.jpg"
     },
     {
       id: 15,
@@ -272,7 +286,8 @@ const Services = () => {
         ar: ["إعادة تشكيل اللثة", "إزالة تصبغ اللثة", "علاج قناة الجذر بالليزر", "إزالة الآفات", "إدارة ألم TMJ", "إجراءات الأنسجة الرخوة", "العلاجات الغازية بشكل طفيف"]
       },
       doctors: [drSita],
-      icon: <FaBolt />
+      icon: <FaBolt />,
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419778/WhatsApp_Image_2025-11-06_at_11.47.49_0e9808fc_tbtenj.jpg"
     },
     {
       id: 16,
@@ -284,7 +299,8 @@ const Services = () => {
         ar: ["التبييض السريع", "التبييض في العيادة", "مجموعات التبييض المنزلية", "تقنية ألمانية متقدمة", "علاج بدون حساسية", "إجراء 45 دقيقة", "تحسين عدة درجات"]
       },
       doctors: [drSita],
-      icon: <FaStar />
+      icon: <FaStar />,
+      iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419779/WhatsApp_Image_2025-11-06_at_11.47.50_17210456_wgvxut.jpg"
     }
   ];
 
@@ -352,7 +368,15 @@ const Services = () => {
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className="service-icon">
-                  <span className="service-icon-text">{service.icon}</span>
+                  {service.iconImage ? (
+                    <img 
+                      src={service.iconImage} 
+                      alt={service.name && service.name[currentLanguage] ? service.name[currentLanguage] : service.name?.en || 'Service'}
+                      className="service-icon-image"
+                    />
+                  ) : (
+                    <span className="service-icon-text">{service.icon}</span>
+                  )}
                 </div>
                 
                 <div className="service-content">
