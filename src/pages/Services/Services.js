@@ -13,18 +13,7 @@ import {
   FaCrown,
   FaTeethOpen as FaImplant,
   FaBolt,
-  FaStar,
-  FaLaptopMedical,
-  FaInstagram,
-  FaWhatsapp,
-  FaEnvelope,
-  FaPhone,
-  FaBrain,
-  FaHandsHelping,
-  FaUserNurse,
-  FaHeartbeat,
-  FaWalking,
-  FaRunning
+  FaStar
 } from 'react-icons/fa';
 import './Services.css';
 

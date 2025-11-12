@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../../contexts/LanguageContext';
-import { FaStethoscope, FaShieldAlt, FaHeartbeat, FaTooth, FaInstagram, FaFacebook, FaWhatsapp, FaEnvelope, FaPhone } from 'react-icons/fa';
+import { FaShieldAlt, FaHeartbeat, FaTooth, FaInstagram, FaFacebook, FaWhatsapp, FaEnvelope, FaPhone } from 'react-icons/fa';
 import './RootCanalTreatment.css';
 
 const RootCanalTreatment = () => {

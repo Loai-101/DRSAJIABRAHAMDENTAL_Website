@@ -287,13 +287,14 @@ const Home = () => {
       { threshold: 0.2 }
     );
 
-    if (cardsRef.current) {
-      observer.observe(cardsRef.current);
+    const currentCardsRef = cardsRef.current;
+    if (currentCardsRef) {
+      observer.observe(currentCardsRef);
     }
 
     return () => {
-      if (cardsRef.current) {
-        observer.unobserve(cardsRef.current);
+      if (currentCardsRef) {
+        observer.unobserve(currentCardsRef);
       }
     };
   }, []);
@@ -309,13 +310,14 @@ const Home = () => {
       { threshold: 0.2 }
     );
 
-    if (featuresRef.current) {
-      observer.observe(featuresRef.current);
+    const currentFeaturesRef = featuresRef.current;
+    if (currentFeaturesRef) {
+      observer.observe(currentFeaturesRef);
     }
 
     return () => {
-      if (featuresRef.current) {
-        observer.unobserve(featuresRef.current);
+      if (currentFeaturesRef) {
+        observer.unobserve(currentFeaturesRef);
       }
     };
   }, []);
@@ -331,13 +333,14 @@ const Home = () => {
       { threshold: 0.2 }
     );
 
-    if (servicesRef.current) {
-      observer.observe(servicesRef.current);
+    const currentServicesRef = servicesRef.current;
+    if (currentServicesRef) {
+      observer.observe(currentServicesRef);
     }
 
     return () => {
-      if (servicesRef.current) {
-        observer.unobserve(servicesRef.current);
+      if (currentServicesRef) {
+        observer.unobserve(currentServicesRef);
       }
     };
   }, []);

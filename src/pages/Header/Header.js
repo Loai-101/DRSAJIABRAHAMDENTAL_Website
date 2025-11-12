@@ -122,13 +122,13 @@ const Header = () => {
             </li>
             <li className="side-menu-item side-menu-item-with-submenu">
               <div className="side-menu-link-wrapper">
-                <a
-                  href="#"
+                <button
+                  type="button"
                   className={`side-menu-link ${location.pathname === '/services' ? 'side-menu-link-active' : ''}`}
                   onClick={toggleServicesSubmenu}
                 >
                   {language === 'ar' ? 'الخدمات' : 'SERVICES'}
-                </a>
+                </button>
                 <button
                   className={`submenu-toggle-btn ${isServicesSubmenuOpen ? 'active' : ''}`}
                   onClick={toggleServicesSubmenu}
