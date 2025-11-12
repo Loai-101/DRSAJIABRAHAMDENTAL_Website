@@ -168,7 +168,7 @@ const Appointment = () => {
     setSubmitStatus(null);
 
     try {
-      // Prepare form data for FormSubmit
+      // Prepare form data for Web3Forms
       const formDataToSend = new FormData();
       formDataToSend.append('name', formData.name);
       formDataToSend.append('email', formData.email);
@@ -178,22 +178,26 @@ const Appointment = () => {
       formDataToSend.append('service', formData.service);
       formDataToSend.append('doctor', formData.doctor);
       formDataToSend.append('language', language === 'ar' ? 'Arabic' : 'English');
-      formDataToSend.append('_subject', language === 'ar' 
+      formDataToSend.append('subject', language === 'ar' 
         ? 'طلب حجز موعد - DR SAJI ABRAHAM DENTAL'
         : 'New Appointment Request - DR SAJI ABRAHAM DENTAL');
-      formDataToSend.append('_captcha', 'false');
-      formDataToSend.append('_template', 'table');
+      
+      // Add Web3Forms access key from environment variable
+      const accessKey = process.env.REACT_APP_WEB3FORMS_ACCESS_KEY || '';
+      formDataToSend.append('access_key', accessKey);
+      
+      // Set recipient email
+      formDataToSend.append('to', 'drsajiortho@gmail.com');
 
-      // Send to FormSubmit
-      const response = await fetch('https://formsubmit.co/drsajiortho@gmail.com', {
+      // Send to Web3Forms
+      const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
-        body: formDataToSend,
-        headers: {
-          'Accept': 'application/json'
-        }
+        body: formDataToSend
       });
 
-      if (response.ok) {
+      const data = await response.json();
+
+      if (data.success) {
         setSubmitStatus('success');
         setShowSuccessPopup(true);
         
@@ -208,11 +212,12 @@ const Appointment = () => {
           doctor: ''
         });
       } else {
-        throw new Error('Form submission failed');
+        console.log('Error', data);
+        throw new Error(data.message || 'Form submission failed');
       }
 
     } catch (error) {
-      console.error('FormSubmit Error:', error);
+      console.error('Web3Forms Error:', error);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
