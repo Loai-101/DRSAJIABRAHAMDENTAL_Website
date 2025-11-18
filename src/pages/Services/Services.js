@@ -66,7 +66,7 @@ const Services = () => {
       en: "Consultant Orthodontist",
       ar: "استشاري تقويم الأسنان"
     },
-    image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762234188/2_zqc0nv.png"
+    image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1763455620/WhatsApp_Image_2025-11-16_at_9.28.31_AM_famdlp.jpg"
   };
 
   const drSita = {

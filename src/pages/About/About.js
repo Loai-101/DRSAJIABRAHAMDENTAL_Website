@@ -16,7 +16,7 @@ const About = () => {
       {
         name: "Dr. SAJI C.ABRAHAM",
         nameAr: "الدكتور ساجي سي أبراهام",
-        image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762234188/2_zqc0nv.png",
+        image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1763455620/WhatsApp_Image_2025-11-16_at_9.28.31_AM_famdlp.jpg",
         qualifications: "BSc, BDS, MDS, MOrth RCSEd, FDS RCSEd",
         position: "CEO & Medical Director",
         positionAr: "الرئيس التنفيذي والمدير الطبي",
@@ -93,7 +93,7 @@ const About = () => {
       <section className="about-hero">
         <div className="about-hero-video-background">
           <img
-            src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1762234138/1_copy_oylpl7.png"
+            src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1763455620/WhatsApp_Image_2025-11-16_at_9.28.31_AM_1_pemduj.jpg"
             alt="About Us"
             className="about-hero-video"
           />

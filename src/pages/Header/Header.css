@@ -713,18 +713,21 @@
   border: none !important;
   outline: none !important;
   box-shadow: none !important;
+  background: transparent !important;
 }
 
 .side-menu-item-with-submenu .side-menu-link:hover {
   border: none !important;
   outline: none !important;
   box-shadow: none !important;
+  background: transparent !important;
 }
 
 .side-menu-item-with-submenu .side-menu-link-active {
   border: none !important;
   outline: none !important;
   box-shadow: none !important;
+  background: transparent !important;
 }
 
 .side-menu-link-wrapper {
