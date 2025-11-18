@@ -67,71 +67,88 @@ const Home = () => {
         items: [
           {
             title: "General Dentistry",
-            description: "Comprehensive dental care includes cleaning, fillings, and preventive treatments."
+            description: "Comprehensive dental care includes cleaning, fillings, and preventive treatments.",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419756/WhatsApp_Image_2025-11-06_at_11.47.50_0b6349e0_jqezay.jpg"
           },
           {
             title: "Dental X-Rays",
-            description: "Dental X-rays can help your dentist detect oral health issues, like cavities and gum disease, before they worsen. There are many distinct types of dental X-rays, including intraoral (taken inside your mouth) and extraoral (taken outside your mouth). Panoramic Xrays and Cephalometric and TMJ Xrays."
+            description: "Dental X-rays can help your dentist detect oral health issues, like cavities and gum disease, before they worsen. There are many distinct types of dental X-rays, including intraoral (taken inside your mouth) and extraoral (taken outside your mouth). Panoramic Xrays and Cephalometric and TMJ Xrays.",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419758/WhatsApp_Image_2025-11-06_at_11.47.44_b5c36a29_ue9skr.jpg"
           },
           {
             title: "Cosmetic Dentistry",
-            description: "Enhance your smile with teeth whitening, veneers, and cosmetic fillings. Cosmetic dentistry is a branch of dental care focused on improving the appearance of teeth, gums, and smiles. Unlike traditional dentistry, which primarily addresses oral health concerns, cosmetic dentistry enhances aesthetics through various treatments."
+            description: "Enhance your smile with teeth whitening, veneers, and cosmetic fillings. Cosmetic dentistry is a branch of dental care focused on improving the appearance of teeth, gums, and smiles. Unlike traditional dentistry, which primarily addresses oral health concerns, cosmetic dentistry enhances aesthetics through various treatments.",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419759/WhatsApp_Image_2025-11-06_at_11.47.45_0cd4795d_bkakpt.jpg"
           },
           {
             title: "Oral Surgery",
-            description: "Expert tooth extractions, wisdom teeth removal, and surgical procedures"
+            description: "Expert tooth extractions, wisdom teeth removal, and surgical procedures",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419761/WhatsApp_Image_2025-11-06_at_11.47.46_6f242f65_tmzcnp.jpg"
           },
           {
             title: "Root Canals/ Endodontic Treatment",
-            description: "Root Canal treatment is a dental procedure that involves removal of infected blood vessels and nerve tissue from within a tooth chamber. The space is then cleaned, disinfected, filled, and sealed to prevent further infection. This therapy is essential for saving teeth that might otherwise need to be removed. It's a common procedure and is typically painless due to anesthesia."
+            description: "Root Canal treatment is a dental procedure that involves removal of infected blood vessels and nerve tissue from within a tooth chamber. The space is then cleaned, disinfected, filled, and sealed to prevent further infection. This therapy is essential for saving teeth that might otherwise need to be removed. It's a common procedure and is typically painless due to anesthesia.",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419763/WhatsApp_Image_2025-11-06_at_11.47.47_442f31f7_rndkgc.jpg"
           },
           {
             title: "Impacted Teeth",
-            description: "The most frequently impacted tooth in the anterior region is maxillary canine. But other teeth like central incisor and lower canine can also be impacted. Several treatment options are available, but one with the long-term prognosis for the impacted tooth appears to be bringing the misplaced tooth into alignment with orthodontic treatment."
+            description: "The most frequently impacted tooth in the anterior region is maxillary canine. But other teeth like central incisor and lower canine can also be impacted. Several treatment options are available, but one with the long-term prognosis for the impacted tooth appears to be bringing the misplaced tooth into alignment with orthodontic treatment.",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419764/WhatsApp_Image_2025-11-06_at_11.47.47_e69cae92_obezv7.jpg"
           },
           {
             title: "Orthodontics",
-            description: "Straighten your teeth with braces, clear aligners, and other orthodontic solutions"
+            description: "Straighten your teeth with braces, clear aligners, and other orthodontic solutions",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419766/WhatsApp_Image_2025-11-06_at_11.47.47_9e4ef08e_qum3rv.jpg"
           },
           {
             title: "Damon System / Self ligating Braces",
-            description: "A Fantastic smile … Faster and with outstanding comfort—Damon System. A new clinically proven treatment approach that aligns your teeth and enhances your facial aesthetics-usually without extractions or rapid palatal Expanders"
+            description: "A Fantastic smile … Faster and with outstanding comfort—Damon System. A new clinically proven treatment approach that aligns your teeth and enhances your facial aesthetics-usually without extractions or rapid palatal Expanders",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419756/WhatsApp_Image_2025-11-06_at_11.47.44_7a341de5_ryp9za.jpg"
           },
           {
             title: "Lingual Orthodontics",
-            description: "Lingual Orthodontics- lingual braces refers to the method of orthodontic treatment in which the brackets and wires are placed behind the teeth (tongue side) so they are non-visible. In contrast, in traditional braces the appliances are fixed on the labial or cheek side."
+            description: "Lingual Orthodontics- lingual braces refers to the method of orthodontic treatment in which the brackets and wires are placed behind the teeth (tongue side) so they are non-visible. In contrast, in traditional braces the appliances are fixed on the labial or cheek side.",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419768/WhatsApp_Image_2025-11-06_at_11.47.47_3f001bb5_igsrap.jpg"
           },
           {
             title: "Clear Aligners",
-            description: "Clear aligner Orthodontics is a method of straightening teeth using a series of custom-made, virtually invisible trays for the teeth. These aligners are made of transparent, medical-grade plastic and are designed to fit snugly over your teeth. They work by applying soft pressure to the teeth, thus gradually and comfortably moving them into the ideal desired position overtime."
+            description: "Clear aligner Orthodontics is a method of straightening teeth using a series of custom-made, virtually invisible trays for the teeth. These aligners are made of transparent, medical-grade plastic and are designed to fit snugly over your teeth. They work by applying soft pressure to the teeth, thus gradually and comfortably moving them into the ideal desired position overtime.",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419770/WhatsApp_Image_2025-11-06_at_11.47.48_40bf1409_aboyn6.jpg"
           },
           {
             title: "Pediatric Dentistry",
-            description: "Gentle dental care for children in a comfortable, friendly environment."
+            description: "Gentle dental care for children in a comfortable, friendly environment.",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419771/WhatsApp_Image_2025-11-06_at_11.47.48_acd6073c_ohj80t.jpg"
           },
           {
             title: "Ceramic Veneers / HOLLYWOOD SMILE",
-            description: "Dental ceramic veneers are thin shells made of porcelain or composite material. They are designed to cover the front surface of teeth to improve aesthetics. Veneers can address various dental issues such as gaps, discoloration or chipping. The procedure involves removing a small amount of tooth enamel to fit the veneers. Known for their durability and natural- locking appearance."
+            description: "Dental ceramic veneers are thin shells made of porcelain or composite material. They are designed to cover the front surface of teeth to improve aesthetics. Veneers can address various dental issues such as gaps, discoloration or chipping. The procedure involves removing a small amount of tooth enamel to fit the veneers. Known for their durability and natural- locking appearance.",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419773/WhatsApp_Image_2025-11-06_at_11.47.49_39be8864_vjjipu.jpg"
           },
           {
             title: "Crowns & Bridge",
-            description: "A dental crown is a cap placed over a damaged tooth to restore its shape, size, and structure. A dental bridge is a fixed restoration used to replace one or more missing teeth by joining an artificial tooth permanently to adjacent teeth or dental implants. Made from various types of material like ceramics or metal and are an alternative to other treatments such as partial dentures or implants"
+            description: "A dental crown is a cap placed over a damaged tooth to restore its shape, size, and structure. A dental bridge is a fixed restoration used to replace one or more missing teeth by joining an artificial tooth permanently to adjacent teeth or dental implants. Made from various types of material like ceramics or metal and are an alternative to other treatments such as partial dentures or implants",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419775/WhatsApp_Image_2025-11-06_at_11.47.49_c9c33e6e_ulhppv.jpg"
           },
           {
             title: "Implants",
-            description: "Dental Implants are metal based posts that provide a permanent base for fixed replacement teeth. They are typically made of titanium and are surgically placed into the jawbone where teeth are missing. Compared to dentures or bridges they are an effective long-term solution for people who suffer from missing teeth or chronic dental problems. They fit, feel, and function like natural teeth."
+            description: "Dental Implants are metal based posts that provide a permanent base for fixed replacement teeth. They are typically made of titanium and are surgically placed into the jawbone where teeth are missing. Compared to dentures or bridges they are an effective long-term solution for people who suffer from missing teeth or chronic dental problems. They fit, feel, and function like natural teeth.",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419776/WhatsApp_Image_2025-11-06_at_11.47.49_e7606228_kpirsx.jpg"
           },
           {
             title: "LASER Dentistry",
-            description: "Lasers are used to reshape gums and de-pigmentation of dark gingival area & during root canal procedures, and lesion removal & TMJ pain management."
+            description: "Lasers are used to reshape gums and de-pigmentation of dark gingival area & during root canal procedures, and lesion removal & TMJ pain management.",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419778/WhatsApp_Image_2025-11-06_at_11.47.49_0e9808fc_tbtenj.jpg"
           },
           {
             title: "Teeth Whitening",
-            description: "Teeth whitening involves bleaching your teeth to make them lighter. It cannot make your teeth brilliantly white, but it can lighten the existing color by several shades. We use Flash bleaching machine with advance German technology. It is with no sensitivity and takes only 45 minutes."
+            description: "Teeth whitening involves bleaching your teeth to make them lighter. It cannot make your teeth brilliantly white, but it can lighten the existing color by several shades. We use Flash bleaching machine with advance German technology. It is with no sensitivity and takes only 45 minutes.",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419779/WhatsApp_Image_2025-11-06_at_11.47.50_17210456_wgvxut.jpg"
           },
           {
             title: "Advanced Technology",
-            description: "State-of-the-art digital imaging to avoid messy impressions for cases of crowns, bridges, Aligners etc"
+            description: "State-of-the-art digital imaging to avoid messy impressions for cases of crowns, bridges, Aligners etc",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419756/WhatsApp_Image_2025-11-06_at_11.47.50_0b6349e0_jqezay.jpg"
           }
         ]
       }
@@ -180,71 +197,88 @@ const Home = () => {
         items: [
           {
             title: "طب الأسنان العام",
-            description: "تشمل الرعاية الأسنان الشاملة التنظيف والحشوات والعلاجات الوقائية."
+            description: "تشمل الرعاية الأسنان الشاملة التنظيف والحشوات والعلاجات الوقائية.",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419756/WhatsApp_Image_2025-11-06_at_11.47.50_0b6349e0_jqezay.jpg"
           },
           {
             title: "أشعة الأسنان",
-            description: "يمكن لأشعة الأسنان أن تساعد طبيب الأسنان في اكتشاف مشاكل صحة الفم، مثل التجاويف وأمراض اللثة، قبل أن تتفاقم. هناك أنواع عديدة من أشعة الأسنان، بما في ذلك داخل الفم (المأخوذة داخل الفم) وخارج الفم (المأخوذة خارج الفم). أشعة بانورامية وأشعة سيفالومترية وأشعة TMJ."
+            description: "يمكن لأشعة الأسنان أن تساعد طبيب الأسنان في اكتشاف مشاكل صحة الفم، مثل التجاويف وأمراض اللثة، قبل أن تتفاقم. هناك أنواع عديدة من أشعة الأسنان، بما في ذلك داخل الفم (المأخوذة داخل الفم) وخارج الفم (المأخوذة خارج الفم). أشعة بانورامية وأشعة سيفالومترية وأشعة TMJ.",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419758/WhatsApp_Image_2025-11-06_at_11.47.44_b5c36a29_ue9skr.jpg"
           },
           {
             title: "طب الأسنان التجميلي",
-            description: "حسّن ابتسامتك بتبييض الأسنان والقشور والحشوات التجميلية. طب الأسنان التجميلي هو فرع من رعاية الأسنان يركز على تحسين مظهر الأسنان واللثة والابتسامات. على عكس طب الأسنان التقليدي، الذي يتعامل أساساً مع مخاوف صحة الفم، يحسّن طب الأسنان التجميلي الجماليات من خلال علاجات مختلفة."
+            description: "حسّن ابتسامتك بتبييض الأسنان والقشور والحشوات التجميلية. طب الأسنان التجميلي هو فرع من رعاية الأسنان يركز على تحسين مظهر الأسنان واللثة والابتسامات. على عكس طب الأسنان التقليدي، الذي يتعامل أساساً مع مخاوف صحة الفم، يحسّن طب الأسنان التجميلي الجماليات من خلال علاجات مختلفة.",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419759/WhatsApp_Image_2025-11-06_at_11.47.45_0cd4795d_bkakpt.jpg"
           },
           {
             title: "جراحة الفم",
-            description: "قلع الأسنان الخبير وإزالة أسنان الحكمة والإجراءات الجراحية"
+            description: "قلع الأسنان الخبير وإزالة أسنان الحكمة والإجراءات الجراحية",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419761/WhatsApp_Image_2025-11-06_at_11.47.46_6f242f65_tmzcnp.jpg"
           },
           {
             title: "علاج قناة الجذر / علاج اللثة",
-            description: "علاج قناة الجذر هو إجراء أسنان يتضمن إزالة الأوعية الدموية والأنسجة العصبية المصابة من داخل حجرة السن. ثم يتم تنظيف المساحة وتطهيرها وملؤها وإغلاقها لمنع المزيد من العدوى. هذا العلاج ضروري لإنقاذ الأسنان التي قد تحتاج إلى الإزالة. إنه إجراء شائع وعادة ما يكون غير مؤلم بسبب التخدير."
+            description: "علاج قناة الجذر هو إجراء أسنان يتضمن إزالة الأوعية الدموية والأنسجة العصبية المصابة من داخل حجرة السن. ثم يتم تنظيف المساحة وتطهيرها وملؤها وإغلاقها لمنع المزيد من العدوى. هذا العلاج ضروري لإنقاذ الأسنان التي قد تحتاج إلى الإزالة. إنه إجراء شائع وعادة ما يكون غير مؤلم بسبب التخدير.",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419763/WhatsApp_Image_2025-11-06_at_11.47.47_442f31f7_rndkgc.jpg"
           },
           {
             title: "الأسنان المنطمرة",
-            description: "السن الأكثر تعرضًا للانغماس في المنطقة الأمامية هو الناب الفكي العلوي. لكن الأسنان الأخرى مثل القاطع المركزي والناب السفلي يمكن أن تنغمر أيضًا. هناك عدة خيارات علاجية متاحة، لكن الخيار مع التكهن طويل الأمد للسن المنغرس يبدو أنه إحضار السن المزاح إلى المحاذاة مع علاج تقويم الأسنان."
+            description: "السن الأكثر تعرضًا للانغماس في المنطقة الأمامية هو الناب الفكي العلوي. لكن الأسنان الأخرى مثل القاطع المركزي والناب السفلي يمكن أن تنغمر أيضًا. هناك عدة خيارات علاجية متاحة، لكن الخيار مع التكهن طويل الأمد للسن المنغرس يبدو أنه إحضار السن المزاح إلى المحاذاة مع علاج تقويم الأسنان.",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419764/WhatsApp_Image_2025-11-06_at_11.47.47_e69cae92_obezv7.jpg"
           },
           {
             title: "تقويم الأسنان",
-            description: "قم بتقويم أسنانك بالأقواس والمحاذاة الواضحة وحلول تقويم الأسنان الأخرى"
+            description: "قم بتقويم أسنانك بالأقواس والمحاذاة الواضحة وحلول تقويم الأسنان الأخرى",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419766/WhatsApp_Image_2025-11-06_at_11.47.47_9e4ef08e_qum3rv.jpg"
           },
           {
             title: "نظام دامون / الأقواس ذاتية الربط",
-            description: "ابتسامة رائعة ... أسرع وبراحة متميزة — نظام دامون. نهج علاجي جديد مثبت سريريًا يحاذي أسنانك ويحسن جماليات وجهك - عادة بدون قلع أو موسعات سقف سريعة"
+            description: "ابتسامة رائعة ... أسرع وبراحة متميزة — نظام دامون. نهج علاجي جديد مثبت سريريًا يحاذي أسنانك ويحسن جماليات وجهك - عادة بدون قلع أو موسعات سقف سريعة",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419756/WhatsApp_Image_2025-11-06_at_11.47.44_7a341de5_ryp9za.jpg"
           },
           {
             title: "تقويم الأسنان اللساني",
-            description: "تقويم الأسنان اللساني - الأقواس اللسانية تشير إلى طريقة علاج تقويم الأسنان التي يتم فيها وضع الأقواس والأسلاك خلف الأسنان (الجانب اللساني) بحيث تكون غير مرئية. على النقيض من ذلك، في الأقواس التقليدية يتم تثبيت الأجهزة على الجانب الشفوي أو الخدي."
+            description: "تقويم الأسنان اللساني - الأقواس اللسانية تشير إلى طريقة علاج تقويم الأسنان التي يتم فيها وضع الأقواس والأسلاك خلف الأسنان (الجانب اللساني) بحيث تكون غير مرئية. على النقيض من ذلك، في الأقواس التقليدية يتم تثبيت الأجهزة على الجانب الشفوي أو الخدي.",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419768/WhatsApp_Image_2025-11-06_at_11.47.47_3f001bb5_igsrap.jpg"
           },
           {
             title: "المحاذاة الواضحة",
-            description: "تقويم الأسنان بالحمالات الشفافة هو طريقة لتقويم الأسنان باستخدام سلسلة من الصواني المصنوعة خصيصًا وغير المرئية تقريبًا للأسنان. هذه المحاذاة مصنوعة من البلاستيك الشفاف الطبي وتصمم لتناسب أسنانك بإحكام. تعمل عن طريق تطبيق ضغط لطيف على الأسنان، وبالتالي نقلها تدريجياً ومريحاً إلى الموضع المثالي المرغوب فيه مع مرور الوقت."
+            description: "تقويم الأسنان بالحمالات الشفافة هو طريقة لتقويم الأسنان باستخدام سلسلة من الصواني المصنوعة خصيصًا وغير المرئية تقريبًا للأسنان. هذه المحاذاة مصنوعة من البلاستيك الشفاف الطبي وتصمم لتناسب أسنانك بإحكام. تعمل عن طريق تطبيق ضغط لطيف على الأسنان، وبالتالي نقلها تدريجياً ومريحاً إلى الموضع المثالي المرغوب فيه مع مرور الوقت.",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419770/WhatsApp_Image_2025-11-06_at_11.47.48_40bf1409_aboyn6.jpg"
           },
           {
             title: "طب أسنان الأطفال",
-            description: "رعاية أسنان لطيفة للأطفال في بيئة مريحة وودية."
+            description: "رعاية أسنان لطيفة للأطفال في بيئة مريحة وودية.",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419771/WhatsApp_Image_2025-11-06_at_11.47.48_acd6073c_ohj80t.jpg"
           },
           {
             title: "القشور الخزفية / ابتسامة هوليوود",
-            description: "القشور الخزفية للأسنان هي قذائف رقيقة مصنوعة من البورسلين أو المواد المركبة. وهي مصممة لتغطية السطح الأمامي للأسنان لتحسين الجماليات. يمكن للقشور معالجة مشاكل الأسنان المختلفة مثل الفجوات أو تغير اللون أو التقشير. يتضمن الإجراء إزالة كمية صغيرة من مينا الأسنان لتناسب القشور. معروفة بمتانتها ومظهرها الطبيعي."
+            description: "القشور الخزفية للأسنان هي قذائف رقيقة مصنوعة من البورسلين أو المواد المركبة. وهي مصممة لتغطية السطح الأمامي للأسنان لتحسين الجماليات. يمكن للقشور معالجة مشاكل الأسنان المختلفة مثل الفجوات أو تغير اللون أو التقشير. يتضمن الإجراء إزالة كمية صغيرة من مينا الأسنان لتناسب القشور. معروفة بمتانتها ومظهرها الطبيعي.",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419773/WhatsApp_Image_2025-11-06_at_11.47.49_39be8864_vjjipu.jpg"
           },
           {
             title: "التيجان والجسور",
-            description: "تاج الأسنان هو غطاء يوضع على السن التالف لاستعادة شكله وحجمه وبنائه. جسر الأسنان هو ترميم ثابت يُستخدم لاستبدال سن واحد أو أكثر عن طريق ربط سن اصطناعي بشكل دائم بالأسنان المجاورة أو زراعة الأسنان. مصنوعة من أنواع مختلفة من المواد مثل السيراميك أو المعدن وهي بديل للعلاجات الأخرى مثل الأطقم الجزئية أو الزراعة"
+            description: "تاج الأسنان هو غطاء يوضع على السن التالف لاستعادة شكله وحجمه وبنائه. جسر الأسنان هو ترميم ثابت يُستخدم لاستبدال سن واحد أو أكثر عن طريق ربط سن اصطناعي بشكل دائم بالأسنان المجاورة أو زراعة الأسنان. مصنوعة من أنواع مختلفة من المواد مثل السيراميك أو المعدن وهي بديل للعلاجات الأخرى مثل الأطقم الجزئية أو الزراعة",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419775/WhatsApp_Image_2025-11-06_at_11.47.49_c9c33e6e_ulhppv.jpg"
           },
           {
             title: "زراعة الأسنان",
-            description: "زراعة الأسنان هي قوائم معدنية توفر قاعدة دائمة للأسنان البديلة الثابتة. عادة ما تكون مصنوعة من التيتانيوم ويتم وضعها جراحيًا في عظم الفك حيث توجد الأسنان المفقودة. مقارنة بالأطقم أو الجسور فهي حل طويل الأمد فعال للأشخاص الذين يعانون من الأسنان المفقودة أو مشاكل الأسنان المزمنة. تناسب وتشعر وتعمل مثل الأسنان الطبيعية."
+            description: "زراعة الأسنان هي قوائم معدنية توفر قاعدة دائمة للأسنان البديلة الثابتة. عادة ما تكون مصنوعة من التيتانيوم ويتم وضعها جراحيًا في عظم الفك حيث توجد الأسنان المفقودة. مقارنة بالأطقم أو الجسور فهي حل طويل الأمد فعال للأشخاص الذين يعانون من الأسنان المفقودة أو مشاكل الأسنان المزمنة. تناسب وتشعر وتعمل مثل الأسنان الطبيعية.",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419776/WhatsApp_Image_2025-11-06_at_11.47.49_e7606228_kpirsx.jpg"
           },
           {
             title: "طب الأسنان بالليزر",
-            description: "يستخدم الليزر لإعادة تشكيل اللثة وإزالة التصبغ من منطقة اللثة الداكنة وأثناء إجراءات قناة الجذر وإزالة الآفات وإدارة ألم TMJ."
+            description: "يستخدم الليزر لإعادة تشكيل اللثة وإزالة التصبغ من منطقة اللثة الداكنة وأثناء إجراءات قناة الجذر وإزالة الآفات وإدارة ألم TMJ.",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419778/WhatsApp_Image_2025-11-06_at_11.47.49_0e9808fc_tbtenj.jpg"
           },
           {
             title: "تبييض الأسنان",
-            description: "يتضمن تبييض الأسنان تبييض أسنانك لجعلها أفتح. لا يمكن أن يجعل أسنانك بيضاء بشكل لامع، لكن يمكنه تفتيح اللون الحالي بعدة درجات. نستخدم آلة التبييض السريع بتقنية ألمانية متقدمة. لا يوجد حساسية ويستغرق 45 دقيقة فقط."
+            description: "يتضمن تبييض الأسنان تبييض أسنانك لجعلها أفتح. لا يمكن أن يجعل أسنانك بيضاء بشكل لامع، لكن يمكنه تفتيح اللون الحالي بعدة درجات. نستخدم آلة التبييض السريع بتقنية ألمانية متقدمة. لا يوجد حساسية ويستغرق 45 دقيقة فقط.",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419779/WhatsApp_Image_2025-11-06_at_11.47.50_17210456_wgvxut.jpg"
           },
           {
             title: "التكنولوجيا المتقدمة",
-            description: "التصوير الرقمي المتقدم لتجنب الانطباعات الفوضوية لحالات التيجان والجسور والمحاذاة وغيرها"
+            description: "التصوير الرقمي المتقدم لتجنب الانطباعات الفوضوية لحالات التيجان والجسور والمحاذاة وغيرها",
+            iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419756/WhatsApp_Image_2025-11-06_at_11.47.50_0b6349e0_jqezay.jpg"
           }
         ]
       }
@@ -570,9 +604,20 @@ const Home = () => {
           <div ref={servicesRef} className={`services-grid ${servicesInView ? 'in-view' : ''}`}>
             {content[language].services.items.map((service, index) => (
               <div key={index} className="service-card">
+                <div className="service-card-header">
+                  {service.iconImage && (
+                    <div className="service-icon">
+                      <img 
+                        src={service.iconImage} 
+                        alt={service.title}
+                        className="service-icon-image"
+                      />
+                    </div>
+                  )}
                 <h3 className="service-card-title">
                   {service.title}
                 </h3>
+                </div>
                 <p className="service-card-description">
                   {service.description}
                 </p>
