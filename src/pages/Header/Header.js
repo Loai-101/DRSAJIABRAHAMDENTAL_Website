@@ -64,11 +64,10 @@ const Header = () => {
         <div className="header-logo">
           <Link to="/" className="header-logo-link">
             <img 
-              src="https://res.cloudinary.com/dvybb2xnc/image/upload/b_white,f_png/v1762154428/Dr_Logo_tdakk7.ai" 
+              src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1764498046/WhatsApp_Image_2025-11-29_at_1.08.48_PM_dkwbeb.jpg" 
               alt="DR SAJI ABRAHAM DENTAL Logo" 
               className="header-logo-image"
             />
-            <h1 className="header-title">DR SAJI ABRAHAM DENTAL</h1>
           </Link>
         </div>
         

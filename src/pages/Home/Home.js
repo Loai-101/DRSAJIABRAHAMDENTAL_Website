@@ -503,15 +503,22 @@ const Home = () => {
       </section>
 
       {/* Moving Text Bar */}
-      <section className="moving-text-section">
-        <div className="moving-text-container">
-          <div className={`moving-text-content ${language === 'ar' ? 'rtl' : 'ltr'}`}>
-            {content[language].movingText.map((text, index) => (
-              <span key={index} className="moving-text-item">{text}</span>
-            ))}
-          </div>
+      <div className="moving-text-section">
+        <div className="moving-text-content">
+          {content[language].movingText.map((text, index) => (
+            <React.Fragment key={index}>
+              <span>{text}</span>
+              <span>•</span>
+            </React.Fragment>
+          ))}
+          {content[language].movingText.map((text, index) => (
+            <React.Fragment key={`repeat-${index}`}>
+              <span>{text}</span>
+              <span>•</span>
+            </React.Fragment>
+          ))}
         </div>
-      </section>
+      </div>
 
       {/* Statistics Section */}
       <section id="stats" className="stats-section">

@@ -82,6 +82,42 @@ const About = () => {
           "إصابات الأسنان الرضحية",
           "تثبيت الأسنان"
         ]
+      },
+      {
+        name: "Dr. Abdulaziz Adel",
+        nameAr: "د. عبدالعزيز عادل",
+        image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1764499030/%D8%AA%D8%B5%D9%85%D9%8A%D9%85_%D8%A8%D8%AF%D9%88%D9%86_%D8%B9%D9%86%D9%88%D8%A7%D9%86_14_azjwbx.png",
+        qualifications: "MAGDS (RCS Ed), MFD (RCSI), MJDF (RCSEng)",
+        position: "General Dentist",
+        positionAr: "طبيب أسنان عام",
+        specialty: "General Dentist",
+        specialtyAr: "طبيب أسنان عام",
+        bio: "Dr. Abdulaziz Adel is a clinician with advanced training in cosmetic and implant dentistry, holding esteemed international qualifications including RCSEd MAGDS, RCSI MFD, and RCSEng MJDF. His postgraduate development includes specialized implantology training at Saint Joseph University, the American Academy of Implant Dentistry MAXI Course, and advanced aesthetic certifications from GMS Academy (Oxford Academy). Dr. Abdulaziz has broad clinical experience across both the government and private healthcare sectors, enriching his clinical judgment and allowing him to treat a wide variety of cases with confidence and precision. His approach combines high-level aesthetics, modern digital workflows, and minimally invasive principles to deliver natural, long-lasting results. Dedicated to continuous education, he consistently updates his clinical knowledge to ensure his patients receive care aligned with global standards in implant and cosmetic dentistry.",
+        bioAr: "الدكتور عبدالعزيز عادل هو طبيب سريري لديه تدريب متقدم في طب الأسنان التجميلي وزراعة الأسنان، ويحمل مؤهلات دولية مرموقة بما في ذلك RCSEd MAGDS و RCSI MFD و RCSEng MJDF. يشمل تطوره بعد التخرج تدريبًا متخصصًا في زراعة الأسنان في جامعة القديس يوسف، ودورة الأكاديمية الأمريكية لزراعة الأسنان MAXI، وشهادات جمالية متقدمة من أكاديمية GMS (أكاديمية أكسفورد). لدى الدكتور عبدالعزيز خبرة سريرية واسعة في كل من القطاعات الحكومية والخاصة للرعاية الصحية، مما يثري حكمه السريري ويسمح له بمعالجة مجموعة واسعة من الحالات بثقة ودقة. يجمع نهجه بين الجماليات عالية المستوى، وسير العمل الرقمي الحديث، ومبادئ التدخل الجراحي البسيط لتقديم نتائج طبيعية ودائمة. مكرسًا للتعليم المستمر، يقوم بتحديث معرفته السريرية باستمرار لضمان حصول مرضاه على رعاية تتماشى مع المعايير العالمية في زراعة الأسنان وطب الأسنان التجميلي.",
+        expertise: [
+          "Cosmetic Dentistry",
+          "Implant Dentistry",
+          "Advanced Aesthetic Procedures",
+          "Digital Workflow Dentistry",
+          "Minimally Invasive Dentistry",
+          "Full Mouth Rehabilitation",
+          "Smile Design",
+          "Crowns and Bridges",
+          "Teeth Whitening",
+          "Veneers"
+        ],
+        expertiseAr: [
+          "طب الأسنان التجميلي",
+          "زراعة الأسنان",
+          "الإجراءات الجمالية المتقدمة",
+          "طب الأسنان بالتدفق الرقمي",
+          "طب الأسنان بالتدخل الجراحي البسيط",
+          "إعادة تأهيل الفم بالكامل",
+          "تصميم الابتسامة",
+          "التيجان والجسور",
+          "تبييض الأسنان",
+          "القشور"
+        ]
       }
     ]
   };
@@ -257,4 +293,7 @@ const About = () => {
 };
 
 export default About;
+
+
+
 
