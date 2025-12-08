@@ -81,18 +81,30 @@ const Services = () => {
     image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762234197/1_uyehlp.png"
   };
 
+  const drAbdulaziz = {
+    name: {
+      en: "Dr. Abdulaziz Adel",
+      ar: "د. عبدالعزيز عادل"
+    },
+    specialty: {
+      en: "General Dentist",
+      ar: "طبيب أسنان عام"
+    },
+    image: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1764499030/%D8%AA%D8%B5%D9%85%D9%8A%D9%85_%D8%A8%D8%AF%D9%88%D9%86_%D8%B9%D9%86%D9%88%D8%A7%D9%86_14_azjwbx.png"
+  };
+
   // Dental services
   const services = [
     {
       id: 1,
       name: { en: "General Dentistry", ar: "طب الأسنان العام" },
       description: { en: "Comprehensive dental care includes cleaning, fillings, and preventive treatments.", ar: "تشمل الرعاية الأسنان الشاملة التنظيف والحشوات والعلاجات الوقائية." },
-      provider: { en: "Dr. SITA LAKSHMI - Dental Specialist", ar: "الدكتورة سيتا لاكشمي - أخصائي طب الأسنان" },
+      provider: { en: "Dr. SITA LAKSHMI & Dr. Abdulaziz Adel", ar: "الدكتورة سيتا لاكشمي ود. عبدالعزيز عادل" },
       treatments: {
         en: ["Dental cleaning and prophylaxis", "Fillings (composite and amalgam)", "Preventive treatments", "Oral health examinations", "Fluoride treatments", "Sealants"],
         ar: ["تنظيف الأسنان والوقاية", "الحشوات (المركبة والملغمية)", "العلاجات الوقائية", "فحوصات صحة الفم", "علاجات الفلورايد", "المواد المانعة للتسرب"]
       },
-      doctors: [drSita],
+      doctors: [drSita, drAbdulaziz],
       icon: <FaTooth />,
       iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419756/WhatsApp_Image_2025-11-06_at_11.47.50_0b6349e0_jqezay.jpg"
     },
@@ -126,12 +138,12 @@ const Services = () => {
       id: 4,
       name: { en: "Oral Surgery", ar: "جراحة الفم" },
       description: { en: "Expert tooth extractions, wisdom teeth removal, and surgical procedures", ar: "قلع الأسنان الخبير وإزالة أسنان الحكمة والإجراءات الجراحية" },
-      provider: { en: "Dr. SITA LAKSHMI - Dental Specialist", ar: "الدكتورة سيتا لاكشمي - أخصائي طب الأسنان" },
+      provider: { en: "Dr. SITA LAKSHMI & Dr. Abdulaziz Adel", ar: "الدكتورة سيتا لاكشمي ود. عبدالعزيز عادل" },
       treatments: {
         en: ["Tooth extractions", "Wisdom teeth removal", "Surgical procedures", "Bone grafting", "Socket preservation", "Surgical extractions"],
         ar: ["قلع الأسنان", "إزالة أسنان الحكمة", "الإجراءات الجراحية", "زراعة العظام", "الحفاظ على التجويف", "القلع الجراحي"]
           },
-      doctors: [drSita],
+      doctors: [drSita, drAbdulaziz],
       icon: <FaUserMd />,
       iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419761/WhatsApp_Image_2025-11-06_at_11.47.46_6f242f65_tmzcnp.jpg"
     },
@@ -217,19 +229,19 @@ const Services = () => {
       id: 11,
       name: { en: "Pediatric Dentistry", ar: "طب أسنان الأطفال" },
       description: { en: "Gentle dental care for children in a comfortable, friendly environment.", ar: "رعاية أسنان لطيفة للأطفال في بيئة مريحة وودية." },
-      provider: { en: "Dr. SITA LAKSHMI - Dental Specialist", ar: "الدكتورة سيتا لاكشمي - أخصائي طب الأسنان" },
+      provider: { en: "Dr. SITA LAKSHMI & Dr. Abdulaziz Adel", ar: "الدكتورة سيتا لاكشمي ود. عبدالعزيز عادل" },
       treatments: {
         en: ["Oral prophylaxis for children", "Pediatric fillings", "Pulpotomy", "Pulpectomy", "Fluoride treatments", "Sealants", "Preventive care", "Child-friendly environment"],
         ar: ["التنظيف الوقائي للأطفال", "حشوات الأطفال", "بضع اللب", "استئصال اللب", "علاجات الفلورايد", "المواد المانعة للتسرب", "الرعاية الوقائية", "بيئة صديقة للأطفال"]
       },
-      doctors: [drSita],
+      doctors: [drSita, drAbdulaziz],
       icon: <FaChild />,
       iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419771/WhatsApp_Image_2025-11-06_at_11.47.48_acd6073c_ohj80t.jpg"
     },
     {
       id: 12,
       name: { en: "Ceramic Veneers / HOLLYWOOD SMILE", ar: "القشور الخزفية / ابتسامة هوليوود" },
-      description: { en: "Dental ceramic veneers are thin shells made of porcelain or composite material. They are designed to cover the front surface of teeth to improve aesthetics. Veneers can address various dental issues such as gaps, discoloration or chipping. The procedure involves removing a small amount of tooth enamel to fit the veneers. Known for their durability and natural- locking appearance.", ar: "القشور الخزفية للأسنان هي قذائف رقيقة مصنوعة من البورسلين أو المواد المركبة. وهي مصممة لتغطية السطح الأمامي للأسنان لتحسين الجماليات. يمكن للقشور معالجة مشاكل الأسنان المختلفة مثل الفجوات أو تغير اللون أو التقشير. يتضمن الإجراء إزالة كمية صغيرة من مينا الأسنان لتناسب القشور. معروفة بمتانتها ومظهرها الطبيعي." },
+      description: { en: "Dental ceramic veneers are thin shells made of porcelain or composite material. They are designed to cover the front surface of teeth to improve aesthetics. Veneers can address various dental issues such as gaps, discoloration or chipping. The procedure involves removing a small amount of tooth enamel to fit the veneers. Known for their durability and natural appearance.", ar: "القشور الخزفية للأسنان هي قذائف رقيقة مصنوعة من البورسلين أو المواد المركبة. وهي مصممة لتغطية السطح الأمامي للأسنان لتحسين الجماليات. يمكن للقشور معالجة مشاكل الأسنان المختلفة مثل الفجوات أو تغير اللون أو التقشير. يتضمن الإجراء إزالة كمية صغيرة من مينا الأسنان لتناسب القشور. معروفة بمتانتها ومظهرها الطبيعي." },
       provider: { en: "Dr. SAJI C.ABRAHAM - Consultant Orthodontist", ar: "الدكتور ساجي سي أبراهام - استشاري تقويم الأسنان" },
       treatments: {
         en: ["Porcelain veneers", "Composite veneers", "Smile design", "Gap closure", "Discoloration correction", "Chip repair", "Full mouth rehabilitation", "Aesthetic enhancement"],
@@ -243,12 +255,12 @@ const Services = () => {
       id: 13,
       name: { en: "Crowns & Bridge", ar: "التيجان والجسور" },
       description: { en: "A dental crown is a cap placed over a damaged tooth to restore its shape, size, and structure. A dental bridge is a fixed restoration used to replace one or more missing teeth by joining an artificial tooth permanently to adjacent teeth or dental implants. Made from various types of material like ceramics or metal and are an alternative to other treatments such as partial dentures or implants", ar: "تاج الأسنان هو غطاء يوضع على السن التالف لاستعادة شكله وحجمه وبنائه. جسر الأسنان هو ترميم ثابت يُستخدم لاستبدال سن واحد أو أكثر عن طريق ربط سن اصطناعي بشكل دائم بالأسنان المجاورة أو زراعة الأسنان. مصنوعة من أنواع مختلفة من المواد مثل السيراميك أو المعدن وهي بديل للعلاجات الأخرى مثل الأطقم الجزئية أو الزراعة" },
-      provider: { en: "Dr. SITA LAKSHMI - Dental Specialist", ar: "الدكتورة سيتا لاكشمي - أخصائي طب الأسنان" },
+      provider: { en: "Dr. SAJI C.ABRAHAM & Dr. Abdulaziz Adel", ar: "الدكتور ساجي سي أبراهام ود. عبدالعزيز عادل" },
       treatments: {
         en: ["Dental crowns", "Dental bridges", "Post and core", "Ceramic crowns", "Metal crowns", "Bridge placement", "Crown restoration"],
         ar: ["تيجان الأسنان", "جسور الأسنان", "اللب واللباب", "التيجان الخزفية", "التيجان المعدنية", "وضع الجسور", "ترميم التيجان"]
       },
-      doctors: [drSita],
+      doctors: [drSaji, drAbdulaziz],
       icon: <FaCrown />,
       iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419775/WhatsApp_Image_2025-11-06_at_11.47.49_c9c33e6e_ulhppv.jpg"
     },
@@ -256,12 +268,12 @@ const Services = () => {
       id: 14,
       name: { en: "Implants", ar: "زراعة الأسنان" },
       description: { en: "Dental Implants are metal based posts that provide a permanent base for fixed replacement teeth. They are typically made of titanium and are surgically placed into the jawbone where teeth are missing. Compared to dentures or bridges they are an effective long-term solution for people who suffer from missing teeth or chronic dental problems. They fit, feel, and function like natural teeth.", ar: "زراعة الأسنان هي قوائم معدنية توفر قاعدة دائمة للأسنان البديلة الثابتة. عادة ما تكون مصنوعة من التيتانيوم ويتم وضعها جراحيًا في عظم الفك حيث توجد الأسنان المفقودة. مقارنة بالأطقم أو الجسور فهي حل طويل الأمد فعال للأشخاص الذين يعانون من الأسنان المفقودة أو مشاكل الأسنان المزمنة. تناسب وتشعر وتعمل مثل الأسنان الطبيعية." },
-      provider: { en: "Dr. SITA LAKSHMI - Dental Specialist", ar: "الدكتورة سيتا لاكشمي - أخصائي طب الأسنان" },
+      provider: { en: "Dr. Abdulaziz Adel - General Dentist", ar: "د. عبدالعزيز عادل - طبيب أسنان عام" },
       treatments: {
         en: ["Dental implant placement", "Titanium implants", "Implant-supported crowns", "Implant-supported bridges", "Bone grafting", "Implant restoration", "Full mouth rehabilitation"],
         ar: ["وضع زراعة الأسنان", "زراعة التيتانيوم", "التيجان المدعومة بالزراعة", "الجسور المدعومة بالزراعة", "زراعة العظام", "ترميم الزراعة", "إعادة تأهيل الفم بالكامل"]
       },
-      doctors: [drSita],
+      doctors: [drAbdulaziz],
       icon: <FaImplant />,
       iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419776/WhatsApp_Image_2025-11-06_at_11.47.49_e7606228_kpirsx.jpg"
     },
@@ -269,12 +281,12 @@ const Services = () => {
       id: 15,
       name: { en: "LASER Dentistry", ar: "طب الأسنان بالليزر" },
       description: { en: "Lasers are used to reshape gums and de-pigmentation of dark gingival area & during root canal procedures, and lesion removal & TMJ pain management.", ar: "يستخدم الليزر لإعادة تشكيل اللثة وإزالة التصبغ من منطقة اللثة الداكنة وأثناء إجراءات قناة الجذر وإزالة الآفات وإدارة ألم TMJ." },
-      provider: { en: "Dr. SITA LAKSHMI - Dental Specialist", ar: "الدكتورة سيتا لاكشمي - أخصائي طب الأسنان" },
+      provider: { en: "Dr. SAJI C.ABRAHAM, Dr. SITA LAKSHMI & Dr. Abdulaziz Adel", ar: "الدكتور ساجي سي أبراهام، الدكتورة سيتا لاكشمي ود. عبدالعزيز عادل" },
       treatments: {
         en: ["Gum reshaping", "Gingival de-pigmentation", "Laser root canal treatment", "Lesion removal", "TMJ pain management", "Soft tissue procedures", "Minimally invasive treatments"],
         ar: ["إعادة تشكيل اللثة", "إزالة تصبغ اللثة", "علاج قناة الجذر بالليزر", "إزالة الآفات", "إدارة ألم TMJ", "إجراءات الأنسجة الرخوة", "العلاجات الغازية بشكل طفيف"]
       },
-      doctors: [drSita],
+      doctors: [drSaji, drSita, drAbdulaziz],
       icon: <FaBolt />,
       iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419778/WhatsApp_Image_2025-11-06_at_11.47.49_0e9808fc_tbtenj.jpg"
     },

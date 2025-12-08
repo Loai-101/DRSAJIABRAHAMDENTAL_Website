@@ -24,7 +24,7 @@ const Home = () => {
   // Bilingual content
   const content = {
     en: {
-      heroTitle: "Welcome to Dr Saji Abraham Dental",
+      heroTitle: "Dr saji Abraham Dental Specialists & Orthodontics",
       heroDescription: "Where innovative technology meets compassionate care. Our award-winning team provides you with the highest standard of dental excellence in a comfortable, modern environment.",
       ourServices: "Our Services",
       bookAppointment: "Book Appointment",
@@ -53,7 +53,7 @@ const Home = () => {
         visionTitle: "Our Vision",
         vision: "Our vision is to be the Center of excellence in oral and dental care while establishing a lifelong partnership with our patients and providing services that exceed their expectations.",
         teamTitle: "Team",
-        team: "Our team of highly trained Dental specialists and dental professionals are highly dedicated to staying at the forefront of dental techniques and technologies to ensure you receive the best possible care.",
+        team: "Our team of trained Dental specialists and dental professionals are highly dedicated to staying at the forefront of dental techniques and technologies to ensure you receive the best possible care.",
         features: [
           "Experienced dental professionals",
           "State-of-the-art equipment",
@@ -122,7 +122,7 @@ const Home = () => {
           },
           {
             title: "Ceramic Veneers / HOLLYWOOD SMILE",
-            description: "Dental ceramic veneers are thin shells made of porcelain or composite material. They are designed to cover the front surface of teeth to improve aesthetics. Veneers can address various dental issues such as gaps, discoloration or chipping. The procedure involves removing a small amount of tooth enamel to fit the veneers. Known for their durability and natural- locking appearance.",
+            description: "Dental ceramic veneers are thin shells made of porcelain or composite material. They are designed to cover the front surface to improve aesthetics. Veneers can address various dental issues such as gaps, discoloration or chipping. The procedure involves removing a small amount of tooth enamel to fit the veneers. Known for their durability and natural appearance.",
             iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419773/WhatsApp_Image_2025-11-06_at_11.47.49_39be8864_vjjipu.jpg"
           },
           {
@@ -137,7 +137,7 @@ const Home = () => {
           },
           {
             title: "LASER Dentistry",
-            description: "Lasers are used to reshape gums and de-pigmentation of dark gingival area & during root canal procedures, and lesion removal & TMJ pain management.",
+            description: "Lasers are used to reshape gums and de-pigmentation of dark gingival area & during root canal procedures, lesion removal & TMJ pain management.",
             iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419778/WhatsApp_Image_2025-11-06_at_11.47.49_0e9808fc_tbtenj.jpg"
           },
           {
@@ -154,7 +154,7 @@ const Home = () => {
       }
     },
     ar: {
-      heroTitle: "مرحباً بكم في عيادة الدكتور ساجي أبراهام للأسنان",
+      heroTitle: "عيادة الدكتور ساجي أبراهام لأخصائيي الأسنان وتقويم الأسنان",
       heroDescription: "حيث يجتمع الابتكار التكنولوجي مع الرعاية الرحيمة. يقدم فريقنا الحائز على جوائز أعلى معايير التميز في طب الأسنان في بيئة مريحة وعصرية.",
       ourServices: "خدماتنا",
       bookAppointment: "احجز موعد",
@@ -252,7 +252,7 @@ const Home = () => {
           },
           {
             title: "القشور الخزفية / ابتسامة هوليوود",
-            description: "القشور الخزفية للأسنان هي قذائف رقيقة مصنوعة من البورسلين أو المواد المركبة. وهي مصممة لتغطية السطح الأمامي للأسنان لتحسين الجماليات. يمكن للقشور معالجة مشاكل الأسنان المختلفة مثل الفجوات أو تغير اللون أو التقشير. يتضمن الإجراء إزالة كمية صغيرة من مينا الأسنان لتناسب القشور. معروفة بمتانتها ومظهرها الطبيعي.",
+            description: "القشور الخزفية للأسنان هي قذائف رقيقة مصنوعة من البورسلين أو المواد المركبة. وهي مصممة لتغطية السطح الأمامي لتحسين الجماليات. يمكن للقشور معالجة مشاكل الأسنان المختلفة مثل الفجوات أو تغير اللون أو التقشير. يتضمن الإجراء إزالة كمية صغيرة من مينا الأسنان لتناسب القشور. معروفة بمتانتها ومظهرها الطبيعي.",
             iconImage: "https://res.cloudinary.com/dvybb2xnc/image/upload/v1762419773/WhatsApp_Image_2025-11-06_at_11.47.49_39be8864_vjjipu.jpg"
           },
           {
@@ -285,30 +285,6 @@ const Home = () => {
     }
   };
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting && !hasAnimated) {
-          setIsVisible(true);
-          // Start counting animation only once when statistics section becomes visible
-          startCounting();
-          setHasAnimated(true);
-        }
-      },
-      { threshold: 0.3 }
-    );
-
-    const element = document.getElementById('stats');
-    if (element) {
-      observer.observe(element);
-    }
-
-    return () => {
-      if (element) {
-        observer.unobserve(element);
-      }
-    };
-  }, [hasAnimated]);
 
   // Intersection Observer for cards animation
   useEffect(() => {
@@ -511,34 +487,28 @@ const Home = () => {
               <span>•</span>
             </React.Fragment>
           ))}
-          {content[language].movingText.map((text, index) => (
+            {content[language].movingText.map((text, index) => (
             <React.Fragment key={`repeat-${index}`}>
               <span>{text}</span>
               <span>•</span>
             </React.Fragment>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
 
-      {/* Statistics Section */}
-      <section id="stats" className="stats-section">
-        <div className="stats-container">
-          <div className="stats-grid">
-            <div className="stat-item">
-              <div className="stat-number">{counts.experience}+</div>
-              <div className="stat-label">{content[language].statistics.experience}</div>
-            </div>
-            <div className="stat-item">
-              <div className="stat-number">{counts.patients}%</div>
-              <div className="stat-label">{content[language].statistics.patients}</div>
-            </div>
-            <div className="stat-item">
-              <div className="stat-number">{counts.satisfaction}</div>
-              <div className="stat-label">{content[language].statistics.satisfaction}</div>
-            </div>
-            <div className="stat-item">
-              <div className="stat-text">{content[language].statistics.emergency}</div>
-            </div>
+      {/* Features Section */}
+      <section id="features" className="features-section">
+        <div className="features-container">
+          <div ref={featuresRef} className={`features-grid ${featuresInView ? 'in-view' : ''}`}>
+            {content[language].about.features.map((feature, index) => (
+              <div key={index} className="feature-item">
+                <div className="feature-content">
+                  <p className="feature-text">
+                    {feature}
+                  </p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -585,19 +555,6 @@ const Home = () => {
                     </div>
                   </div>
                   
-            <div className="about-section">
-              <div ref={featuresRef} className={`about-features ${featuresInView ? 'in-view' : ''}`}>
-                {content[language].about.features.map((feature, index) => (
-                  <div key={index} className="about-feature">
-                    <div className="about-feature-content">
-                      <p className="about-feature-text">
-                        {feature}
-                      </p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
           </div>
         </div>
       </section>

@@ -74,7 +74,7 @@ const Gallery = () => {
       <section className="gallery-hero">
         <div className="gallery-hero-video">
           <img
-            src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1762234138/1_copy_oylpl7.png"
+            src="https://res.cloudinary.com/dvybb2xnc/image/upload/v1765188530/istockphoto-1388931724-612x612_x0tnht.jpg"
             alt="Gallery Hero"
             className="hero-image"
           />
@@ -85,6 +85,9 @@ const Gallery = () => {
             <h1 className="gallery-hero-title">
               {language === 'ar' ? 'معرض الحالات' : 'Gallery Of Cases'}
             </h1>
+            <p className="gallery-hero-caption">
+              {language === 'ar' ? 'نخلق ابتسامات لا تتلاشى أبداً' : 'We create smiles that never fade'}
+            </p>
             {/* Social Media Icons */}
             <div className="gallery-social-icons">
               <a 
